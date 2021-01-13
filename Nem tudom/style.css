@@ -1,8 +1,56 @@
 table{
-   border: 5px groove rgb(235, 235, 235);
-   border-radius: 6px;
-   border-collapse:separate;
+   border: 2.8px solid rgb(189, 189, 189);
+   border-radius: 5px;
+   padding: 1.5px;
 }
-th, td{
+td, th{
+   width: 76px;
+   height: 45px;
+   border-radius: 5px;
+   border-bottom: 2px solid rgb(0, 0, 131);
+   border-right: 2px solid rgb(0, 0, 131);
+   font-size: 12px;
+   padding: 1px;
+   text-align: center;
+   color: rgb(0, 0, 179);
+   background-color: rgb(224, 229, 255);
+}
+td{
+   background-color: rgb(224, 229, 255);
+}
+.voros{
+   color: rgb(224, 0, 0);
+}
+.szempont{
+   text-align: left;
+   background-color: rgb(189, 189, 255);
+   padding-left: 6px;
+}
+#szempont{
+   background-color: rgb(189, 189, 255);
+   text-align: left;
+   padding-left: 6px;
+}
+.tavak{
+   background-color: rgb(169, 169, 255);
+}
+.velenceito{
+   background-color: rgb(208, 208, 208);
+}
+#velenceito{
+   background-color: rgb(177, 177, 177);;
+}
+.foto{
+   width: 76px;
+   height: 45pxpx;
+   padding: 0;
+   margin: 0;
    
+}
+img{
+   width: 77px;
+   margin: 0;
+   padding: 0;
+   border-radius: 5px;
+   border-bottom: 0px;
 }
